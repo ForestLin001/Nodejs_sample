@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>学生成绩录入系统</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="/javascripts/jquery.js"></script>
+</head>
+<body>
+<header>
+    <div class="container">
+        学生成绩查询
+    </div>
+</header>
+<section>
+    <div class="container">
+        <section>
+            <table>
+                <thead>
+                <tr>
+                    <th class="t-3 center t-left-padding">姓名</th>
+                    <th class="t-2 center">语文</th>
+                    <th class="t-2 center ">英语</th>
+                    <th class="t-3 center">数学</th>
+                </tr>
+                </thead>
+                <tbody>
+                <%for(var i=0, max = students.length;i<max;i++){%>
+                <tr>
+                    <td class="center"><%= students[i].name %></td>
+                    <td  class="center"><%= students[i].chinese %></td>
+                    <td class="center"><%= students[i].english %></td>
+                    <td class="center"><%= students[i].math %></td>
+                </tr>
+                <%}%>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</section>
+</body>
+</html>

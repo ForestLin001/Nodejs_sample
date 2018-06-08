@@ -1,0 +1,22 @@
+{
+  "name": "book",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "echarts": "^3.5.3",
+    "jquery": "^3.2.1",
+    "rc-echarts": "^0.3.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-echarts-v3": "^1.0.4"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

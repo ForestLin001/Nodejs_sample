@@ -1,0 +1,11 @@
+<template name="listItem">
+    <li class="{{#if completed}} completed {{/if}}">
+        {{#if completed}}
+            <input type="checkbox" checked/>
+        {{else}}
+            <input type="checkbox"/>
+        {{/if}}
+        {{content}}
+        <span class="delete">删除</span>
+    </li>
+</template>

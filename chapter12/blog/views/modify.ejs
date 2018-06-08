@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <%- include("./public/head.ejs")%>
+</head>
+<body>
+<%- include("./public/header.ejs")%>
+<section class="main floatfix">
+    <%- include("./public/aside.ejs")%>
+    <section class="main-articles">
+        <form action="" method="POST" class="edit">
+            <div class="form-group">
+                <label for="">标题</label>
+                <input type="text" name="title" value="<%= title %>">
+            </div>
+            <div class="text-group">
+                <label for="">内容</label>
+                <textarea name="content"><%= content %></textarea>
+            </div>
+            <p><input type="submit" value="保存"></p>
+        </form>
+    </section>
+</section>
+<%- include("./public/footer.ejs")%>
+</body>
+</html>

@@ -1,0 +1,80 @@
+*{
+    padding:0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: url('/bg.png') no-repeat;
+    background-size: 100%;
+}
+.container{
+    width:98%;
+    margin: 0 auto;
+}
+.container h1{
+    background: #2998d0;
+    color: #fff;
+    text-align:center;
+    height: 3em;
+    line-height:3em;
+    font-size: 18px;
+}
+.container form{
+    width:100%;
+}
+.container form input{
+    height: 60px;
+    line-height: 60px;
+    margin: 10px 0;
+    padding: 0 5px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.container ul  {
+
+}
+.container ul li{
+    width: 100%;
+    list-style:none;
+    background: #fff;
+    padding: 10px 5%;
+    margin: 10px 0;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 14px;
+    height:40px;
+    line-height: 20px;
+}
+.container ul li .delete{
+    position:absolute;
+    right:2%;
+    color:#8c0707;
+    cursor: pointer;
+}
+.container ul li input{
+    width:18px;
+    height:18px;
+    position:absolute;
+    left:2%;
+    background: #fff;
+}
+.container ul li.completed{
+    text-decoration: line-through;
+    color:#b7b6b6;
+}
+select.lists-type{
+    font-size: 14px;
+    display: block;
+    float: right;
+    height: 40px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    width: 70px;
+    position: absolute;
+    right:2%;
+    top:7px;
+}
