@@ -1,0 +1,27 @@
+{
+  "name": "fs-easy",
+  "version": "0.0.2",
+  "description": "An easy use libraray for node.js",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huruji/fs-easy.git"
+  },
+  "keywords": [
+    "fs",
+    "node.js"
+  ],
+  "author": "huruji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huruji/fs-easy/issues"
+  },
+  "homepage": "https://github.com/huruji/fs-easy#readme"
+}
